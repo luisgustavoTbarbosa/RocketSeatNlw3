@@ -1,0 +1,20 @@
+/* o que é uma regra css? */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%; /*por padrao o navegador tem a font de 16px, usando 62.5% de 16px é igual a 10px*/
+}
+
+body {
+    height: 100vh;
+    color: white;
+    background: #ebf2f5;
+}
+
+body, input, button, textarea {
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
